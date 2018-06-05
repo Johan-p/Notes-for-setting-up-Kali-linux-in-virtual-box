@@ -24,7 +24,7 @@ Check the Reinitilize the MAC address of all network cards and select import.
 
 This might take a while...
 
-#### Optional
+#### Optional settings of your kali vm
 On the network tab.
 - Change the network adapters, set the first one to internal if you run a testing lab.
 - Add a second adapter and set it to either NAT or bridged (bridged if you want to be able to attack any routers in the outside network)

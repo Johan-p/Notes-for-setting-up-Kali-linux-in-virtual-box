@@ -2,10 +2,13 @@ Quick reference for kali linux setup guide in virtual box
 
 # Download virtualbox from:
 [virtual box](https://www.virtualbox.org/wiki/Downloads)
+
 Get both the installation as well as the Extension Pack.
 
 While we wait for the virtual box download lets download the kali .ova from the offensive-security site.
+
 [Virtual box Kali Images](https://www.offensive-security.com/kali-linux-vm-vmware-virtualbox-hyperv-image-download/)
+
 Be sure to select virtual box image before downloading.
 
 Now install virtual box, and add the extension pack by dubbleclicking it.

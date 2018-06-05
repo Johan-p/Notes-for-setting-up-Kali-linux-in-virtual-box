@@ -43,11 +43,11 @@ On the Shared folders tab
 - optional you can set it to read-only, if you don't want kali to be able to write your machine.
 
 
-#### Fixing guest additions
+**Fixing guest additions**:
 - if you notice that your shared folder isn't auto-mouting its likely due to the guest additions.
 - mount the guest additions cd
 
-### Run the following in commandline to install the guest additions.
+**Run the following in commandline to install the guest additions**:
 ```bash
 cp /media/cdrom0/VBoxLinuxAdditions.run /root/
 chmod 755 /root/VBoxLinuxAdditions.run

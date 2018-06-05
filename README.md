@@ -1,6 +1,6 @@
 Quick reference for kali linux setup guide in virtual box
 
-# Download virtualbox from:
+### Download virtualbox from:
 [virtual box](https://www.virtualbox.org/wiki/Downloads)
 
 Get both the installation as well as the Extension Pack.
@@ -43,30 +43,35 @@ On the Shared folders tab
 - optional you can set it to read-only, if you don't want kali to be able to write your machine.
 
 
-
-#### Installing the guest additions & adding a shared drive.
-- 
-- Insert the guest additions cd from the virtual box devices menu.
-- wait a moment for kali to pickup the new media (it should appear on your desktop)
-  - you can ignore any auto-run as it won't work.
+#### Fixing guest additions
+- if you notice that your shared folder isn't auto-mouting its likely due to the guest additions.
+- mount the guest additions cd
 
 ### Run the following in commandline to install the guest additions.
 ```bash
 cp /media/cdrom0/VBoxLinuxAdditions.run /root/
 chmod 755 /root/VBoxLinuxAdditions.run
-cd ~/
 ./VBoxLinuxAdditions.run
-reboot
+y
 ```
-Replace cdrom0 for the mounted media device if you run into any errors while copying.
+- Reboot the system.
+- remove the CD
+- Replace cdrom0 for the mounted media device if you run into any errors while copying.
 
 - - -
 
-## Setup
-
-**NOTE**:
+**Setup**:
 ```bash
-code
+apt-get update -y && apt-get upgrade -y && apt-get dist-upgrade -y
+apt-get install git -y
 ```
 
 - - -
+
+**Install Veil**:
+```bash
+apt -y install veil
+/usr/share/veil/config/setup.sh --force --silent
+```
+
+

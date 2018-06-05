@@ -11,7 +11,9 @@ Be sure to select virtual box image before downloading.
 Now install virtual box, and add the extension pack by dubbleclicking it.
 Once our Kali image is downloaded import it.
 In the menu go to file import appliance.
+
 ![import image](https://github.com/MarvinTheParanoidPentester/KalivboxSetupguide/blob/master/import.jpg?raw=true)
+
 Check the Reinitilize the MAC address of all network cards and select import.
 This might take a while...
 

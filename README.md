@@ -20,7 +20,7 @@ https://www.offensive-security.com/kali-linux-vm-vmware-virtualbox-hyperv-image-
 - wait a moment for kali to pickup the new media (it should appear on your desktop)
   - you can ignore any auto-run as it won't work.
 
-# Run the following in commandline to install the guest additions.
+### Run the following in commandline to install the guest additions.
 ```bash
 cp /media/cdrom0/VBoxLinuxAdditions.run /root/
 chmod 755 /root/VBoxLinuxAdditions.run
@@ -29,7 +29,7 @@ cd ~/
 reboot
 ```
 
-# replace cdrom0 for the mounted media device if you run into any errors while copying.
+#### replace cdrom0 for the mounted media device if you run into any errors while copying.
 
 
 - - -

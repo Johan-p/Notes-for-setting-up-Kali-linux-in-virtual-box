@@ -1,6 +1,7 @@
 Quick reference for kali linux setup guide in virtual box
 
-### Download virtualbox from:
+**Download virtualbox from**:
+
 [virtual box](https://www.virtualbox.org/wiki/Downloads)
 
 Get both the installation as well as the Extension Pack.

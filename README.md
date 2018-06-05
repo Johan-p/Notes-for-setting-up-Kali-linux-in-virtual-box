@@ -7,7 +7,8 @@ Get both the installation as well as the Extension Pack.
 Once virtual box is installed open the extention pack to add it to virtual box.
 
 ## Get the latest kali linux image for virtual box from:
-https://www.offensive-security.com/kali-linux-vm-vmware-virtualbox-hyperv-image-download/
+[Virtual box Kali Images](https://www.offensive-security.com/kali-linux-vm-vmware-virtualbox-hyperv-image-download/)
+
 
 - Unzip the file.
 - Create a new vm in virtual box and add the virtual disk.

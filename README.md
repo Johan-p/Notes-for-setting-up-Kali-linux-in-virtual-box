@@ -9,10 +9,7 @@ Once virtual box is installed open the extention pack to add it to virtual box.
 ## Get the latest kali linux image for virtual box from:
 [Virtual box Kali Images](https://www.offensive-security.com/kali-linux-vm-vmware-virtualbox-hyperv-image-download/)
 
-
-- Unzip the file.
-- Create a new vm in virtual box and add the virtual disk.
-- Now boot the VM.
+![import image](https://github.com/MarvinTheParanoidPentester/KalivboxSetupguide/blob/master/import.jpg?raw=true)
 
 
 # Installing the guest additions.

@@ -69,7 +69,7 @@ cd /usr/share
 mkdir Cminer
 cd Cminer/
 wget  https://github.com/EgeBalci/Cminer/raw/master/Cminer
-chmod + Cminer
+chmod 755 Cminer
 export PATH="$PATH:/usr/share/Cminer/"
 ```
 

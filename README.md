@@ -70,8 +70,21 @@ mkdir Cminer
 cd Cminer/
 wget  https://github.com/EgeBalci/Cminer/raw/master/Cminer
 chmod 755 Cminer
+```
+
+Add Cminer to your .profile so you can execute it form anywhere in the terminal
+
+```bash
+nano .profile
+```
+
+Add the following to the end of the file
+
+```bash
 export PATH="$PATH:/usr/share/Cminer/"
 ```
+
+
 
 usage:
 

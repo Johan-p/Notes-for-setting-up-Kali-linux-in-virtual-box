@@ -94,5 +94,5 @@ Cminer <file> <MinCaveSize>
 
 give Cminer a file to look at and add a Minimium cave size your looking for.
 
-[Cminer Example](https://github.com/MarvinTheParanoidPentester/KalivboxSetupguide/blob/master/cminer%20example.jpg?raw=true)
+![Cminer Example](https://github.com/MarvinTheParanoidPentester/KalivboxSetupguide/blob/master/cminer%20example.jpg?raw=true)
 

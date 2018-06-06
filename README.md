@@ -1,5 +1,7 @@
 Quick reference for kali linux setup guide in virtual box
 
+
+
 **Download virtualbox from**:
 
 [virtual box](https://www.virtualbox.org/wiki/Downloads)
@@ -75,4 +77,22 @@ apt -y install veil
 /usr/share/veil/config/setup.sh --force --silent
 ```
 
+**Install Cminer**:
+```bash
+cd /usr/share
+mkdir Cminer
+cd Cminer/
+wget  https://github.com/EgeBalci/Cminer/raw/master/Cminer
+chmod + Cminer
+export PATH="$PATH:/usr/share/Cminer/"
+```
+
+usage:
+```bash
+Cminer <file> <MinCaveSize>
+```
+
+give Cminer a file to look at and add a Minimium cave size your looking for.
+
+[Cminer Example](https://github.com/MarvinTheParanoidPentester/KalivboxSetupguide/blob/master/cminer%20example.jpg?raw=true)
 

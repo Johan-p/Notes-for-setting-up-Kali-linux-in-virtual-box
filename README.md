@@ -89,10 +89,13 @@ give Cminer a file to look at and add a Minimium cave size your looking for.
 ## Fixing issue's:
 
 
-**Fixing guest additions**:
+**Fixing guest additions & shared folder mounting**:
 
-- if you notice that your shared folder isn't auto-mouting its likely due to the guest additions.
-- mount the guest additions cd
+- the Kali VM comes with Virtual box guest additons pre-installed, however sometimes you still run into issue's.
+- for example auto-mouting of shared folders that doesn't seem to work.
+- To fix this:
+- mount the guest additions cd (device > insert guest additions cd image..)
+- you can ignore any autorun.
 
 **Run the following in commandline to install the guest additions**:
 
